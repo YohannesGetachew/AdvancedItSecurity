@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container__main {
+  /* Take the remaining height */
+  flex-grow: 1;
+  /* Layout the left sidebar, main content and right sidebar */
+  display: flex;
+}
+
+.container__center {
+  /* Take the remaining height */
+  flex-grow: 1;
+  /* Layout the left sidebar, main content and right sidebar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.container__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
